@@ -17,7 +17,7 @@ pip install pandas
 
 <br>
 
-From the home directory `CAPGUIDE`, run:<br>
+From the home directory `capguide_assignment`, run:<br>
 
 <br>
 
