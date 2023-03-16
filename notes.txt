@@ -1,0 +1,16 @@
+
+Approach for multiple data files:
+ - Load each data file individually and combine it's data with peviously loaded data.
+ - If it is Big Data (hundreds of files, with each file in GB's), then we can use incremental approach. That is loading data in small chunks, processing individual chunk and returning required colleges that this chunk.
+
+
+
+Assumptions:
+- Removed letter 'P' from ranks feature to convert it to integer.
+
+- The rank of the condidate should be between Opening Rank and Closing Rank (both included)
+- If gender is male, show 'Gender Neutral' seats
+- If gender is female, show 'Gender Neutral' + 'Female-only' seats
+- Returning Institute Name + Branch Name for more clearity
+
+- By 2 file we mean splitting large data into 2 seperate files, each file having same features.
